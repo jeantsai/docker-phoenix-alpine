@@ -144,7 +144,7 @@ mix phx.server
 ```
 Or, run the following comannd to start it in interactive way:
 ```
-iex -S phx.server
+iex -S mix phx.server
 ```
 
 > **NOTES:** To avoid potential port conflict with Phoenix project being developed and debug
