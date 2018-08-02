@@ -147,7 +147,10 @@ Or, run the following comannd to start it in interactive way:
 iex -S phx.server
 ```
 
-> **NOTES:** To avoid potential port conflict with Phoenix project residing on the host system, the Phoenix container will use port "4100" instead of "4000" by default. 
+> **NOTES:** To avoid potential port conflict with Phoenix project being developed and debug
+> directly on the host system, we can set port number to other number instead of "4000" in
+> "docker-compose.yml". **If this is the case, please replace "static_url" with "static_path"
+> in file "app.html.eex" of the Phoenix project you just generated.
 
 
 # License

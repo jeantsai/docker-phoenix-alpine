@@ -11,7 +11,7 @@ services:
   phx:
     image: jeantsai/phoenix-alpine
     ports:
-      - 4100:4000
+      - 4000:4000
     volumes:
       - .:/app
     links:
